@@ -1,20 +1,19 @@
 public class Lab02 {
-//     class Doubler(){
+    class Doubler{
+        UnaryFunction;
+    }
+    public static void map(double[] values, UnaryFunction single) {
+        double[] newArr= new double[values.length];
+        for (int i = 0; i < values.length; i++){
+            values[i] = values[i]*2;
+        }
+    }
 
-//     }
-//     public void main (String [] args){
-
-//         double[] Val = {1.0, 2.0, 3.0, 4.0, 5.0};
-//         map(Val, new Doubler());
-//     }
-//     public static void map(double[] values, UnaryFunction single) {
-
-//     }
-//     public interface UnaryFunction {
-//         double exec(double argument);
-//     }
-    //PART 2
     public static void main(String[] args) {
+        //PART 1 MAIN
+        double[] Val = {1.0, 2.0, 3.0, 4.0, 5.0};
+        map(Val, new Doubler());
+        //PART 2 MAIN
         Song sed = new Song("The Ramones", "I Wanna be Sedated", 148);
         Song one = new Song("Daft Punk", "One More Time", 322);
 
